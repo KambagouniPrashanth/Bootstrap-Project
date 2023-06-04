@@ -1,0 +1,102 @@
+.nav-item{
+    padding:2px 32px;
+}
+.carousel-item img{
+    height: 100vh;
+    
+}
+
+
+.carousel-indicators [data-bs-target] {
+    background-color: transparent!important;
+}
+/* .img-wrapper{
+    display: flex;
+   
+}
+.img-wrapper img{
+    height:300px;
+} */
+
+.card-wrapper{
+    display: flex;
+    gap:10px;
+}
+
+.footer-wrapper{
+   background-color: ghostwhite;
+}
+
+
+.footer-wrapper a{
+    /* text-decoration: none;
+    color: black; */
+    
+}
+/* .footer-wrapper .row{
+    justify-content: space-evenly;
+} */
+.footer-wrapper .linking{
+    justify-content: space-between;
+}
+.footer-wrapper .linking p{
+    margin-left: 30px;
+    
+}
+.footer-wrapper p{
+    font-size: 15px;
+
+}
+.footer-wrapper .btn-inlast{
+    display: flex;
+    justify-content: space-around;
+    
+    gap:700px;
+
+}
+
+.card{
+    box-shadow: 10px 10px 30px grey;
+   
+}
+.card .btn:hover{
+    color:black;
+    background-color: #fff!important;
+
+}
+
+@media screen and (min-width:576px) and (max-width:768px){
+    .image-wrapper .container{
+        width: 50%;
+    }
+    .footer .btn-inlast{
+        gap:20px;
+    }
+    
+    footer .btn-inlast{
+        /* display: flex; */
+        
+        gap:10px;
+    
+    }
+    .footer-wrapper h5{
+        
+    font-size: 15px;
+    margin-left: 12px;
+
+    }
+    .footer-wrapper a{
+        font-size: 12px;
+    }
+    .footer-wrapper p{
+        font-size: 10px;
+    
+    }
+    .footer-wrapper .text-button{
+        /* flex-wrap: nowrap; */
+    }
+    .footer-wrapper .text-button p{
+        font-size: 10px;
+    }
+
+}
